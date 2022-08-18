@@ -1,7 +1,8 @@
-import '../styles/globals.css'
+import "../public/scss/home/home.scss";
+// import "bootstrap/dist/css/bootstrap.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return <Component {...pageProps} />;
 }
 
-export default MyApp
+export default MyApp;
